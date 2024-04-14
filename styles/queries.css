@@ -1,0 +1,422 @@
+@media (max-width: 74em) {
+  .success-section {
+    gap: 5rem;
+    padding: 0 2rem;
+  }
+
+  .success-story h2 {
+    font-size: 4rem;
+  }
+
+  .text-container h5 {
+    font-size: 2.2rem;
+  }
+
+  .text-container p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 73em) {
+  .nav-menu {
+    flex-wrap: wrap;
+    margin-left: 3rem;
+  }
+
+  .sign-container {
+    margin-right: 15rem;
+    gap: 3rem;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 64em) {
+  .hero-header {
+    font-size: 7rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .success-section {
+    padding: 0 1.5rem;
+  }
+
+  .success-story h2 {
+    font-size: 3.2rem;
+  }
+  .text-container h5 {
+    font-size: 2rem;
+  }
+
+  .text-container p {
+    font-size: 1.8rem;
+  }
+
+  .review {
+    padding: 0 1.5rem;
+  }
+
+  .success-story {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .success-story h2 {
+    font-size: 4.4rem;
+  }
+
+  .text-container h5 {
+    font-size: 2.4rem;
+  }
+
+  .text-container p {
+    font-size: 2.2rem;
+  }
+
+  .testimonial-header {
+    font-size: 4rem;
+  }
+
+  .success-section {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+  }
+
+  .review {
+    padding: 0 5rem;
+  }
+
+  .statistics p {
+    font-size: 1.7rem;
+    line-height: 0.7;
+  }
+}
+
+@media (max-width: 55em) {
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .review .statistics {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-menu {
+    background-color: rgba(248, 243, 253, 0.952);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-5%);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease-in;
+    line-height: 2.5;
+
+    /* hide navigation */
+    opacity: 0;
+
+    /* make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* hide it from screen reader */
+    visibility: hidden;
+  }
+
+  .nav-open .nav-menu {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  nav ul li a {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  .sign-container {
+    margin-left: 48rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 51em) {
+  .hero-header {
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+
+  .hero-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .btn-mobile-nav {
+    margin-left: 2rem;
+  }
+
+  .sign-container {
+    margin-left: 30rem;
+  }
+
+  .hero-header {
+    font-size: 4.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.45rem;
+  }
+
+  .hero-btn {
+    font-size: 1.4rem;
+    height: 4.8rem;
+    width: 17.7rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 34.4em) {
+  .hero-header {
+    font-size: 3.8rem;
+  }
+
+  .sign-container {
+    margin-left: 25rem;
+  }
+
+  .hero-text {
+    font-size: 1.9rem;
+    margin: 0 auto;
+  }
+
+  .testimonial-header {
+    font-size: 2.2rem;
+  }
+
+  .review {
+    gap: 6.5rem;
+  }
+
+  .statistics img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 31.7em) {
+  .success-section {
+    text-align: center;
+    padding: 0 1rem;
+    gap: 5rem;
+  }
+
+  .success-story h2 {
+    font-size: 3.8rem;
+  }
+
+  .text-container h5 {
+    font-size: 2.5rem;
+  }
+
+  .text-container p {
+    font-size: 2rem;
+  }
+
+  .story-img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 30.6em) {
+  .hero-header {
+    line-height: 1.2;
+  }
+
+  .success-story h2 {
+    font-size: 2.8rem;
+  }
+
+  .text-container h5 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .text-container p {
+    font-size: 1.5rem;
+  }
+
+  .story-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .success-story {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (max-width: 29.4em) {
+  .sign-container {
+    margin-left: 20rem;
+  }
+
+  .hero-header {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
+  .testimonial-header {
+    font-size: 2rem;
+  }
+
+  .success-story {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .sign-container {
+    margin-left: 20rem;
+  }
+
+  .review {
+    gap: 2rem;
+  }
+
+  .statistics img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .statistics p {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+
+  .success-story h2 {
+    font-size: 2.6rem;
+  }
+
+  .text-container h5 {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+
+  .text-container p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .sign-container {
+    margin-left: 15rem;
+  }
+
+  .testimonial-header {
+    font-size: 1.8rem;
+  }
+
+  .statistics p {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .statistics p span {
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .success-story {
+    width: 35rem;
+    height: 30rem;
+  }
+
+  .success-story h2 {
+    font-size: 2.5rem;
+  }
+
+  .text-container h5 {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+
+  .text-container p {
+    font-size: 1.3rem;
+  }
+
+  .copyright {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    height: 5rem;
+  }
+}
+
+@media (max-width: 23.6em) {
+  .sign-container {
+    margin-left: 10rem;
+  }
+
+  .hero-header {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.15rem;
+    /* word-spacing: 1px;  */
+  }
+
+  .success-story {
+    width: 32rem;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 22.8em) {
+  .nav-menu {
+    line-height: 1.5;
+  }
+
+  .testimonial-header {
+    font-size: 1.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.05rem;
+  }
+
+  .success-story {
+    width: 30rem;
+    height: 30rem;
+  }
+}

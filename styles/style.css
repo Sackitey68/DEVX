@@ -1,0 +1,301 @@
+/* --- COLOR SYSTEM 
+text color : #000;
+primary color : #F8F3FD;
+btn background-color : #60269E;
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  /* 
+    i want my default font size to be 10px instead of 16px
+    font-size: 10px; 
+    10px / 16px = 0.625 = 62.5%;
+    percentage of user's browser font-size setting 
+    */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+}
+
+/* NAVIGATION */
+nav {
+  width: 100vw;
+  height: 8rem;
+  background-color: #f8f3fd;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1rem;
+  align-items: center;
+
+
+  
+}
+
+nav .logo h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin-left: 7.78rem;
+}
+
+nav .nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2.3rem;
+  margin-right: 20rem;
+}
+
+nav ul li a {
+  color: #000;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #60269e;
+  font-weight: 500;
+}
+
+/* MOBILE NAV */
+.btn-mobile-nav {
+    border: none;
+    background-color: #f8f3fd;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 2.8rem;
+    width: 2.8rem;
+    color: #000;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+    display: none;;
+}
+
+.sign-container {
+  margin-right: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.sign-in a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.sign-in a:hover {
+  color: #60269e;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #60269e;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.sign-up {
+  padding: 1rem 1.6rem;
+}
+
+/* HERO SECTION */
+.hero-section {
+  text-align: center;
+  margin: 5rem 0;
+  font-family: "PT Sans", "san-serif";
+}
+
+.welcome-btn {
+  display: inline-block;
+  outline: none;
+  border-radius: 16px;
+  border: 1px solid #60269e;
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.welcome-btn:hover {
+  color: #fff;
+  background-color: #60269e;
+}
+
+.hero-header {
+  font-weight: 700;
+  font-size: 7.5rem;
+  font-family: inherit;
+  line-height: 7.3rem;
+  margin: 2.5rem 0;
+}
+
+.hero-text {
+  color: #555;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+.hero-btn {
+  margin: 5rem;
+  border-radius: 16px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
+  height: 5.1rem;
+  width: 18.7rem;
+}
+
+/* TESTIMONIAL-SECTION */
+.testimonial-section {
+  background-color: #f8f3fd;
+  text-align: center;
+  height: 36.4rem;
+}
+
+.testimonial-header {
+  font-family: "PT Sans", "san-serif";
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 10rem;
+}
+
+.review {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9.5rem;
+}
+
+.review .statistics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: left;
+}
+
+.statistics p {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 0.6;
+}
+
+.statistics span {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #5e00d0;
+}
+
+/* SUCCESS STORY SECTION */
+.success-section {
+  font-family: "PT Sans", "san-serif";
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+}
+
+.success-story {
+  width: 47.8rem;
+  height: 43.8rem;
+}
+
+.success-story h2,
+.text-container h5,
+.text-container p {
+  font-family: "PT Sans", "san-serif";
+}
+
+.success-story h2 {
+  font-size: 4.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.text-container h5 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.text-container h5 span {
+  color: #60269e;
+}
+
+.text-container p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.story-img img {
+  border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* FOOTER SECTION */
+.footer {
+  width: 100vw;
+  height: 8rem;
+  background-color: #f8f3fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 1.6rem;
+}
+
+.copyright .year {
+  color: #60269e;
+  font-weight: 700;
+}
+
+.copyright .devx {
+  color: #000;
+  font-weight: 700;
+}
+
+
