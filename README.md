@@ -6,4 +6,4 @@ _DEVX Landing page_
 
 ### Description
 
-Welcome to [DEVX](https://symphonious-starlight-40eb30.netlify.app/). This project is a frontend landing page built using HTML CSS and JavaScript.
+Welcome to [DEVX](https://symphonious-starlight-40eb30.netlify.app/). This project is a frontend responsive landing page built using HTML CSS and JavaScript.
